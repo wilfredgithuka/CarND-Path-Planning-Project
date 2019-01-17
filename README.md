@@ -39,3 +39,14 @@ does really but the car moves. Great
 One major issue to the problem above was that the car was veering off the road in just a straight line. 
 We need to make sure that the car stays within the lane and for that we will opt for frenet cordinates which
 give us the distance and deviation values which we can work with to ensure that the vehicle stays on the lane.
+
+## Rear-Ending Other Cars
+I managed to solve the driving-in-a straight line by calculating the trajectory of the vehicle instead of directly
+feeding the trajectory as I had done earler. This can be seen in the image below. 
+
+![image02](/img/Car_Move_But_Hits_Other_Vehicles.png)
+
+But now I have developed another problem such that my vehcile is rear-ending other cars on the same lane. 
+I thought I would be able to solve this by reducing the value of dist_inc down to 0.3 from 0.5. 
+This woked only on a conditon that the vehicle infront of me was not slowing down. Also my car is 
+violating jerk and acceleration laws.
