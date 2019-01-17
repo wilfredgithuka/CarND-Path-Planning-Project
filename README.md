@@ -44,7 +44,7 @@ give us the distance and deviation values which we can work with to ensure that 
 I managed to solve the driving-in-a straight line by calculating the trajectory of the vehicle instead of directly
 feeding the trajectory as I had done earler. This can be seen in the image below. 
 
-![image02](/img/Car_Move_But_Hits_Other_Vehicles.png)
+![image02](/images/Car_Move_But_Hits_Other_Vehicles.png)
 
 But now I have developed another problem such that my vehcile is rear-ending other cars on the same lane. 
 I thought I would be able to solve this by reducing the value of dist_inc down to 0.3 from 0.5. 
